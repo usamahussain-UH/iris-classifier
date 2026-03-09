@@ -23,9 +23,10 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 # Load Iris Dataset
 # -----------------------------
 iris = load_iris()
-
+print(iris)
 X = iris.data
 y = iris.target
+
 
 
 # -----------------------------
